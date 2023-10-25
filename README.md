@@ -4,7 +4,7 @@
 ## How to use?
 1 Download repository 
 ```
-git clone https://github.com/Perminev/norgbot/
+git clone https://github.com/Perminev/ptranslate/
 ```
 2 Create virtual environment
 ```
