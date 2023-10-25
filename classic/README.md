@@ -37,5 +37,5 @@ python main.py
 ```
 _Examples:_
 <br> <br>
-![Example](https://github.com/Perminev/ptranslate/blob/main/ptranslate.png?raw=true)
+![Example](https://github.com/Perminev/ptranslate/blob/main/classic/ptranslate.png?raw=true)
 
