@@ -20,7 +20,7 @@ env\Scripts\activate.bat
 ```
 2.3 Activate the environment(Windows)
 ```
- & c:[projectpath]/env/Scripts/Activate.ps1
+ & c/[projectpath]/env/Scripts/Activate.ps1
 ```
 If you have an error with PowerShell scripting
 write this command in PS as an administrator
