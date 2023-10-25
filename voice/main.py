@@ -6,11 +6,6 @@ from PySide6 import QtCore, QtWidgets, QtGui
 from PySide6.QtWidgets import (QLineEdit, QPushButton, QApplication,
     QVBoxLayout, QDialog)
 
-
-# translator= Translator(from_lang=f"lv", to_lang=f"ru")
-# translation = translator.translate(f"Hi. How are you?")
-# print(f"{translation}")
-
 class MyWidget(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
@@ -38,11 +33,8 @@ class MyWidget(QtWidgets.QWidget):
         recog = speech_recognition.Recognizer()
 
         with mic as audio_file:
-            # print("Speak ples")
             recog.adjust_for_ambient_noise(audio_file)
             audio = recog.listen(audio_file)
-    
-            # print("Converting Speech to Text...")
             
             rec = recog.recognize_google(audio, language="ru-RU")
             translator = Translator(from_lang=f"ru", to_lang=f"lv")
@@ -73,10 +65,3 @@ if __name__ == "__main__":
     widget.show()
 
     sys.exit(app.exec())
-
-# c = input("Enter language from you want translate\n \x1B[3m Example: en \x1B[0m \npi>>> ")
-# a = input("Enter language to you want to translate\n \x1B[3m Example: ru \x1B[0m \n>>> ")
-# b = input("Enter words to translate \n>>> ")
-# translator= Translator(from_lang=f"{c}", to_lang=f"{a}")
-# translation = translator.translate(f"{b}")
-# print(f"{translation}")
