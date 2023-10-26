@@ -1,5 +1,5 @@
 # pvtranslate
-[![PYVER](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/) [![ptranslate](https://img.shields.io/badge/PTranslate-0.1-blueviolet)](https://github.com/Perminev/ptranslate) [![translate](https://img.shields.io/badge/translate-3.6.1-blue)](https://pypi.org/project/translate/) [![speechrecognition](https://img.shields.io/badge/SpeechRecognition-3.10.0-blue)](https://pypi.org/project/translate/) [![PyQt](https://img.shields.io/badge/PySide-6-brightgreen)](https://doc.qt.io/qtforpython-6)
+[![PYVER](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/) [![ptranslate](https://img.shields.io/badge/PTranslate-0.1-blueviolet)](https://github.com/Perminev/ptranslate) [![translate](https://img.shields.io/badge/translate-3.6.1-blue)](https://pypi.org/project/translate/) [![speechrecognition](https://img.shields.io/badge/SpeechRecognition-3.10.0-blue)](https://pypi.org/project/SpeechRecognition/) [![PyQt](https://img.shields.io/badge/PySide-6-brightgreen)](https://doc.qt.io/qtforpython-6)
 <br> PVTranslate is voice translator on python what created using PySide6 and translate libraries
 ## How to use?
 1 Download repository 
